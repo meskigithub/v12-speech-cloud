@@ -1,0 +1,5 @@
+---
+applications:
+ - name: v12-speech-cloud
+   random-route: true
+   memory: 512M

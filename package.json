@@ -1,0 +1,29 @@
+{
+  "name": "v12-speech-cloud",
+  "main": "app.js",
+  "description": "An introduction to developing Node.js apps on the Bluemix platform",
+  "version": "0.1.1",
+  "private": false,
+  "engines": {
+    "node": "6.*"
+  },
+  "scripts": {
+    "start": "node app.js",
+	"deploy": "gcloud app deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meskigithub/v12-speech-cloud.git"
+  },
+  "dependencies": {
+    "@google-cloud/speech": "^0.10.3",
+    "bufferutil": "^3.0.5",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "path": "^0.12.7",
+    "socket.io": "^2.0.4"
+  },
+  "author": "IBM Corp",
+  "license": "ISC"
+}
